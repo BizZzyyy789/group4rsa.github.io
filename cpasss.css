@@ -1,0 +1,305 @@
+body{
+    background-color: black;
+    
+}
+#p1
+{
+    background: url("l.png");
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+     top:1%;
+    text-shadow: 8px -2px 5px rgba(32, 66, 71, 0.7);
+}
+#p2
+{ 
+  background: url("l.png");
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+    1px 2px 4px 0px rgba(0,255,255,0.7),
+    2px 4px 8px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7);
+    border-radius: 20px;
+    right:10%;
+    top:95%;
+    position: absolute;
+
+}
+
+.k1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+.k2
+{
+    background-color: #FCFCFF;
+    background: url("l.png");
+    background-size: 1400px;
+    background-attachment: fixed;
+    background-position: left bottom;
+    cursor: pointer;
+    width: 1000px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+    1px 2px 4px 0px rgba(0,255,255,0.7),
+    2px 4px 8px 0px rgba(0,255,255,0.7),
+    2px 4px 16px 0px rgba(0,255,255,0.7);
+}
+#img-1{
+    width: 40px;
+    height: 50px;
+    right: 83%;
+    top:17%;
+    border-radius: 60px;
+    position: absolute;
+}
+span{
+    position: absolute;
+    right: 77%;
+    top: 20%;
+    color: #FCFCFF;
+}
+#p3{
+    position: absolute;
+    color: rgb(2, 78, 243);
+    font-family: fantasy;
+    top:29%;
+    right: 58%;
+    text-shadow: 8px -2px 5px rgba(15, 15, 15, 0.7);
+}
+#p4{
+    position: absolute;
+    color: rgb(250, 251, 253);
+    font-family: Broadway;
+    top:36%;
+    right: 62%;
+    text-shadow: 8px -2px 5px rgba(53, 44, 44, 0.7);
+}
+#p5
+{
+    position: absolute;
+    top:26%;
+    border-radius: 10px;
+    right: 16.5%;
+    background-color: #FCFCFF;
+}
+#p6{
+    position: absolute;
+    color: rgb(250, 251, 253);  
+    top:44%;
+    right: 53%;
+    text-shadow: 8px -2px 5px rgba(53, 44, 44, 0.7);
+}
+  .animated-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    top:60%;
+    right: 70%;
+    position: absolute;
+  }
+  
+  .animated-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  .bb{
+    right: 43%;
+    position: absolute;
+    cursor: pointer;    
+    margin-top:30%;
+}
+#F5
+{
+    position: absolute;
+    color: #2424e4; 
+    top:80%;
+    right: 41%;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+} 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  position: absolute;
+  width: 450px;
+  top:15%;
+  background: #0c0202;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  color: #fff;
+  right: 34%;
+  border-radius: 20px;
+  box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+  1px 2px 4px 0px rgba(0,255,255,0.7),
+  2px 4px 8px 0px rgba(0,255,255,0.7),
+  2px 4px 16px 0px rgba(0,255,255,0.7);
+}
+.container h2{
+  font-weight: 900;
+  font-size: 1.31rem;
+  padding: 1rem 1.75rem;
+  border-bottom: 1px solid #d4dbe5;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.wrapper{
+  margin: 1.25rem 1.75rem;
+}
+.wrapper .input-box{
+  position: relative;
+}
+.input-box input{
+  width: 100%;
+  height: 53px;
+  color: #f8f4f4;
+  background: none;
+  font-size: 1.06rem;
+  font-weight: 500;
+  border-radius: 4px;
+  letter-spacing: 1.4px;
+  border: 1px solid #aaa;
+  padding: 0 2.85rem 0 1rem;
+}
+.input-box span{
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+  line-height: 53px;
+  color: #707070;
+  top:6%;
+}
+.input-box span:hover{
+  color: #4285F4!important;
+}
+.wrapper .pass-indicator{
+  width: 100%;
+  height: 4px;
+  position: relative;
+  background: #dfdfdf;
+  margin-top: 0.75rem;
+  border-radius: 25px;
+}
+.pass-indicator::before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  border-radius: inherit;
+  transition: width 0.3s ease;
+}
+.pass-indicator#weak::before{
+  width: 20%;
+  background: #E64A4A;
+}
+.pass-indicator#medium::before{
+  width: 50%;
+  background: #f1c80b;
+}
+.pass-indicator#strong::before{
+  width: 100%;
+  background: #4285F4;
+}
+.wrapper .pass-length{
+  margin: 1.56rem 0 1.25rem;
+}
+.pass-length .details{
+  display: flex;
+  justify-content: space-between;
+}
+.pass-length input{
+  width: 100%;
+  height: 5px;
+}
+.pass-settings .options{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.pass-settings .options .option{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: calc(100% / 2);
+}
+.options .option:first-child{
+  pointer-events: none;
+}
+.options .option:first-child input{
+  opacity: 0.7;
+}
+.options .option input{
+  height: 16px;
+  width: 16px;
+  cursor: pointer;
+}
+.options .option label{
+  cursor: pointer;
+  color: #4f4f4f;
+  padding-left: 0.63rem;
+}
+.wrapper .generate-btn{
+  width: 100%;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #4285F4;
+  font-size: 1.06rem;
+  padding: 0.94rem 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 0.94rem 0 1.3rem;
+}
+  
+.pass-length span
+{
+  position: absolute;
+  top: 40.5%;
+  right: 60%;
+  color: blue;
+}
+
+#p7
+{
+  position: absolute;
+  top:4%;
+  right: 4%;
+  cursor: pointer;
+}
+
+
+#p8
+{
+  cursor: pointer;
+}
+#p88
+{
+  cursor: pointer;
+  position: absolute;
+  top:51.6%;
+  right: 57%;
+}
+
+
+
+.active.k1
+{
+  filter: blur(5px) brightness(0.7);
+}
